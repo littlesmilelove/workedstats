@@ -4,12 +4,12 @@
 
 WorkedStats is a small, browser-only statistics workbench for students who need the working, not just the answer. Paste a dataset once, then move between the six tools below: the dataset is shared through `sessionStorage`, and every calculation and SVG plot runs in the tab.
 
-- **Median Calculator** — sorts the data, shows the middle position or pair, and draws a box plot: [https://workedstats.com/](https://workedstats.com/)
-- **Mean Calculator** — substitutes every value into Σx / n and compares the result with the median: [https://workedstats.com/tools/mean-calculator](https://workedstats.com/tools/mean-calculator)
-- **Standard Deviation Calculator** — row-by-row deviation table, definition and computational formulas, and a sample/population switch: [https://workedstats.com/tools/standard-deviation-calculator](https://workedstats.com/tools/standard-deviation-calculator)
-- **Average Calculator** — an average-finder view with arithmetic, geometric, harmonic, midrange and mode: [https://workedstats.com/tools/average-calculator](https://workedstats.com/tools/average-calculator)
-- **Interquartile Range (IQR) Calculator** — TI-84/AP exclusive, Tukey inclusive and Excel/R type-7 quartiles side by side, plus 1.5 × IQR fences: [https://workedstats.com/tools/interquartile-range](https://workedstats.com/tools/interquartile-range)
-- **Z-Score Calculator** — single-value and whole-dataset modes with a shaded standard-normal curve: [https://workedstats.com/tools/z-score-calculator](https://workedstats.com/tools/z-score-calculator)
+- [Median Calculator](https://workedstats.com/) — sorts the data, shows the middle position or pair, and draws a box plot.
+- [Mean Calculator](https://workedstats.com/tools/mean-calculator) — substitutes every value into Σx / n and compares the result with the median.
+- [Standard Deviation Calculator](https://workedstats.com/tools/standard-deviation-calculator) — row-by-row deviation table, definition and computational formulas, and a sample/population switch.
+- [Average Calculator](https://workedstats.com/tools/average-calculator) — an average-finder view with arithmetic, geometric, harmonic, midrange and mode.
+- [Interquartile Range (IQR) Calculator](https://workedstats.com/tools/interquartile-range) — TI-84/AP exclusive, Tukey inclusive and Excel/R type-7 quartiles side by side, plus 1.5 × IQR fences.
+- [Z-Score Calculator](https://workedstats.com/tools/z-score-calculator) — single-value and whole-dataset modes with a shaded standard-normal curve.
 
 ## Why it exists
 
