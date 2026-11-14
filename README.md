@@ -16,3 +16,5 @@ WorkedStats is a small, browser-only statistics workbench for students who need 
 Most statistics calculators return one number. WorkedStats keeps the intermediate work visible: the sorted list, the formula substitution, the deviation squares, the three quartile conventions that different courses use, and the same dataset across pages. There is no upload endpoint, no account, and no chart library.
 
 The source for the live site is maintained separately; this repository is the public link and usage note.
+
+A longer technical note on the three quartile conventions, worked deviation tables and inline SVG is on the blog: [Pure-front-end quartiles: TI-84, Tukey, Excel](https://xeon-space.com/posts/workedstats-browser-only-quartiles/).
