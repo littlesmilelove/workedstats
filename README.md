@@ -1,0 +1,18 @@
+# WorkedStats
+
+**Homepage: [https://workedstats.com](https://workedstats.com)**
+
+WorkedStats is a small, browser-only statistics workbench for students who need the working, not just the answer. Paste a dataset once, then move between the six tools below: the dataset is shared through `sessionStorage`, and every calculation and SVG plot runs in the tab.
+
+- **Median Calculator** — sorts the data, shows the middle position or pair, and draws a box plot: [https://workedstats.com/](https://workedstats.com/)
+- **Mean Calculator** — substitutes every value into Σx / n and compares the result with the median: [https://workedstats.com/tools/mean-calculator](https://workedstats.com/tools/mean-calculator)
+- **Standard Deviation Calculator** — row-by-row deviation table, definition and computational formulas, and a sample/population switch: [https://workedstats.com/tools/standard-deviation-calculator](https://workedstats.com/tools/standard-deviation-calculator)
+- **Average Calculator** — an average-finder view with arithmetic, geometric, harmonic, midrange and mode: [https://workedstats.com/tools/average-calculator](https://workedstats.com/tools/average-calculator)
+- **Interquartile Range (IQR) Calculator** — TI-84/AP exclusive, Tukey inclusive and Excel/R type-7 quartiles side by side, plus 1.5 × IQR fences: [https://workedstats.com/tools/interquartile-range](https://workedstats.com/tools/interquartile-range)
+- **Z-Score Calculator** — single-value and whole-dataset modes with a shaded standard-normal curve: [https://workedstats.com/tools/z-score-calculator](https://workedstats.com/tools/z-score-calculator)
+
+## Why it exists
+
+Most statistics calculators return one number. WorkedStats keeps the intermediate work visible: the sorted list, the formula substitution, the deviation squares, the three quartile conventions that different courses use, and the same dataset across pages. There is no upload endpoint, no account, and no chart library.
+
+The source for the live site is maintained separately; this repository is the public link and usage note.
