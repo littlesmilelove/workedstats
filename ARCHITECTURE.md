@@ -60,11 +60,13 @@ s = √((Σxᵢ² − n·x̄²) / (n − 1))          computational
 
 The sample/population toggle changes the denominator from `n − 1` to `N`. The raw sum of squares does not change; only the variance and SD do. The APA button copies `M = …, SD = …` using the sample SD, because that is the usual reporting convention.
 
-## Shared dataset
+## Shared dataset & interactive workbench
 
-The six pages read and write the same `sessionStorage` key. The parser extracts numeric tokens and ignores non-numeric text, so a pasted Excel column works without a header cleanup step. The presets are data, not screenshots: odd `n = 9`, even `n = 10`, and a ten-value list with a 98 outlier.
+The six pages read and write the same `sessionStorage` key. On a fresh tab with no stored dataset, the workbench pre-loads the ten-value outlier preset (`12, 15, 18, 20, 22, 25, 28, 31, 35, 98`) so visitors immediately see a populated box plot and worked steps; clearing the textarea persists an empty string across navigation. The parser extracts numeric tokens and ignores non-numeric text, so a pasted Excel column works without a header cleanup step.
 
-This is a UX choice with a statistical consequence. Comparing the mean with the median, then checking the IQR, then standardizing a value is one investigation. Keeping the dataset in the tab removes the retyping that would otherwise break it into four unrelated visits.
+On desktop viewports the input rail stays sticky beside the result canvas, letting users toggle individual sorted token chips to exclude or restore outliers and switch decimal precision (`Auto`, `2`, `4`) without scrolling away from the charts or formulas.
+
+This is a UX choice with a statistical consequence. Comparing the mean with the median, then checking the IQR, then testing how removing `98` changes every metric is one investigation. Keeping the dataset in the tab removes the retyping that would otherwise break it into four unrelated visits.
 
 ## SVG instead of a chart library
 

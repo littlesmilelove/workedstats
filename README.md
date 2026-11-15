@@ -11,9 +11,9 @@
     <a href="https://workedstats.com/tools/z-score-calculator">Z-Score</a>
   </p>
   <p>
-    <img alt="100% local processing" src="https://img.shields.io/badge/processing-100%25%20local-10b981" />
-    <img alt="No sign-up" src="https://img.shields.io/badge/sign--up-not%20required-4f46e5" />
-    <img alt="No chart library" src="https://img.shields.io/badge/charts-inline%20SVG-a23e8c" />
+    <img alt="Worked steps" src="https://img.shields.io/badge/output-worked%20steps-1e3a8a" />
+    <img alt="Session shared" src="https://img.shields.io/badge/dataset-session%20shared-d97706" />
+    <img alt="Inline SVG charts" src="https://img.shields.io/badge/charts-inline%20SVG-475569" />
   </p>
 </div>
 
@@ -34,14 +34,15 @@ The six pages share one dataset through `sessionStorage`. Paste a list once, the
 
 ## Features
 
-- **One dataset across six tools** — the list lives in `sessionStorage`, so the mean, SD, IQR and z-score pages all see the same values. Three presets cover odd n, even n and an outlier.
-- **Worked steps, not only answers** — sorted data, formula substitution and the final result are rendered for every calculator.
-- **A real deviation table** — [Standard Deviation Calculator](https://workedstats.com/tools/standard-deviation-calculator) shows each `xᵢ`, `xᵢ − x̄` and `(xᵢ − x̄)²`, with the sum row and both SD formulas.
-- **The quartile argument is visible** — [Interquartile Range (IQR) Calculator](https://workedstats.com/tools/interquartile-range) computes exclusive, Tukey inclusive and linear type-7 Q1/Q3 side by side, then draws the active convention's box plot and outlier dots.
+- **Two-column sticky workbench** — the dataset input, presets, decimal precision selector, interactive sorted value chips and cross-tool summary stay pinned on the left while the result, chart and worked steps update live on the right.
+- **One dataset across six tools** — the list lives in `sessionStorage` (pre-loaded with a starter outlier sample on a fresh tab), so the mean, SD, IQR and z-score pages all see the same values. Click any sorted chip to temporarily exclude or restore a value and watch how outliers move the mean vs the median.
+- **Worked steps, not only answers** — sorted data with middle positions highlighted, formula substitution and the final result are rendered for every calculator.
+- **A real deviation table** — [Standard Deviation Calculator](https://workedstats.com/tools/standard-deviation-calculator) shows each `xᵢ`, `xᵢ − x̄` and `(xᵢ − x̄)²` (sortable by value or largest deviation), with the sum row and both SD formulas.
+- **The quartile argument is visible** — [Interquartile Range (IQR) Calculator](https://workedstats.com/tools/interquartile-range) computes exclusive, Tukey inclusive and linear type-7 Q1/Q3 side by side, then draws the active convention's box plot, 1.5 × IQR fence lines and outlier dots.
 - **Average is a family** — [Average Calculator](https://workedstats.com/tools/average-calculator) adds geometric mean, harmonic mean, midrange and mode to the arithmetic mean, while the Mean page stays focused on x̄.
-- **Z-score with a picture** — [Z-Score Calculator](https://workedstats.com/tools/z-score-calculator) uses an Abramowitz & Stegun normal CDF and fills the selected tail area in inline SVG.
+- **Z-score with a picture** — [Z-Score Calculator](https://workedstats.com/tools/z-score-calculator) uses an Abramowitz & Stegun normal CDF, keeps single-value `x, μ, σ` mode available even when no dataset is loaded, and fills the selected tail area in inline SVG with `±1σ / ±2σ` guides.
 - **No chart library** — the box plot and bell curve are plain SVG elements in the DOM.
-- **No upload, no account** — parsing, statistics and drawing happen in the tab.
+- **Browser-only runtime** — parsing, statistics and drawing happen in the tab with no account required.
 
 ## Screenshots
 
